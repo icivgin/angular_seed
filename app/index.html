@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app='angularSeed'>
+<head>
+	<title>Angular Seed</title>
+
+	<!-- Base -->
+	<base href="/">
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<!-- Angular JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+	<!-- ngRoute -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
+
+	<!-- Angular Modules/Dependencies -->
+	<script src="app.js"></script>
+	<script src="services.js"></script>
+	<script src="controllers.js"></script>
+
+	<!-- Custom Styles -->
+	<link href="../assets/css/styles.css" rel="stylesheet">
+	
+	<!-- Custom Scripts -->
+	<script src="../assets/js/scripts.js"></script>
+
+</head>
+<body ng-controller='MainCtrl'>
+	<div ng-view></div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "angular_seed",
+  "version": "1.0.0",
+  "description": "Angular seed files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ian Civgin",
+  "license": "ISC"
+}
